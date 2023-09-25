@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35D6510C-CE56-4173-9151-0D9D7DEBDBDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ViolenMoonee_Leave_Managment_System</RootNamespace>
+    <AssemblyName>ViolenMoonee_Leave Managment System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminFinaiViewANDStatisticForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFinaiViewANDStatisticForm.Designer.cs">
+      <DependentUpon>AdminFinaiViewANDStatisticForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdministratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministratorForm.Designer.cs">
+      <DependentUpon>AdministratorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandler.cs" />
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalViewTable.cs" />
+    <Compile Include="LeaverequesrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaverequesrForm.Designer.cs">
+      <DependentUpon>LeaverequesrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestLeave.cs" />
+    <Compile Include="SearchStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchStatus.Designer.cs">
+      <DependentUpon>SearchStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View of all employee leave request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View of all employee leave request.Designer.cs">
+      <DependentUpon>View of all employee leave request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMyLeaveNoteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMyLeaveNoteForm.Designer.cs">
+      <DependentUpon>ViewMyLeaveNoteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewStatistic.Designer.cs">
+      <DependentUpon>ViewStatistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomePortalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomePortalForm.Designer.cs">
+      <DependentUpon>WelcomePortalForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminFinaiViewANDStatisticForm.resx">
+      <DependentUpon>AdminFinaiViewANDStatisticForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdministratorForm.resx">
+      <DependentUpon>AdministratorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaverequesrForm.resx">
+      <DependentUpon>LeaverequesrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchStatus.resx">
+      <DependentUpon>SearchStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View of all employee leave request.resx">
+      <DependentUpon>View of all employee leave request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMyLeaveNoteForm.resx">
+      <DependentUpon>ViewMyLeaveNoteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewStatistic.resx">
+      <DependentUpon>ViewStatistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomePortalForm.resx">
+      <DependentUpon>WelcomePortalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

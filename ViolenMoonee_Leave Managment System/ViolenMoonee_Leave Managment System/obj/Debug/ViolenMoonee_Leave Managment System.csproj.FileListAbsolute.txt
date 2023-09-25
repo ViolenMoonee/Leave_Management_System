@@ -1,0 +1,19 @@
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\bin\Debug\ViolenMoonee_Leave Managment System.exe.config
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\bin\Debug\ViolenMoonee_Leave Managment System.exe
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\bin\Debug\ViolenMoonee_Leave Managment System.pdb
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.csproj.AssemblyReference.cache
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.csproj.SuggestedBindingRedirects.cache
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.EmployeeForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.LeaverequesrForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.Properties.Resources.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.csproj.GenerateResource.cache
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.csproj.CoreCompileInputs.cache
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.exe
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave Managment System.pdb
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.AdminFinaiViewANDStatisticForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.AdministratorForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.View_of_all_employee_leave_request.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.ViewMyLeaveNoteForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.WelcomePortalForm.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.SearchStatus.resources
+C:\Users\shane\Desktop\ViolenMoonee_Leave Managment System\ViolenMoonee_Leave Managment System\obj\Debug\ViolenMoonee_Leave_Managment_System.ViewStatistic.resources
